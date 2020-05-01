@@ -1,0 +1,434 @@
+body{padding: 0px; margin: 0px;width: 100%; overflow-x: hidden;}
+html{width:100vw;}
+
+
+
+#one{background-color: #316DC3;padding: 5px;}
+
+.row1a{
+	height: max-content;
+}
+
+.mybars{
+	font-size: 27px;
+	padding: 10px;
+	display: none;
+}
+
+.widgets{}
+.mywidgets{
+	list-style: none; 
+	display: flex; 
+	justify-content: space-between;
+	color: white;
+	padding: 5px;
+	margin: 0px;
+}
+li a{color: white;}
+
+.line{color: white; padding: 5px;}
+
+.endbuttons{text-align: center;padding:5px;}
+.mybutton{
+	width: 80px;
+	height: 30px;
+	background-color: #f5f5f5; 
+	border: 1px solid black;
+	font-size: 11px;
+}
+
+/*2nd row begins*/
+#two{background-color: #f7f8fa;padding: 5px;border-bottom:1px solid #eee;}
+.row2a{height: max-content;}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropbtn {
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 17px;
+  font-size: 12px;
+  height: 0px;
+  transition: height;
+  transition-duration: 4s;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;height: max-content;}
+
+
+.mynav{
+	color: black; 
+	list-style: none;
+	display: flex;
+	padding: 0px;
+	
+}
+
+
+
+.mynav li{
+	padding-top: 7px; 
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 7px;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.mynav li:hover{
+	background-color: #316DC3;
+	color: white;
+}
+
+
+.mydiv{
+	background-color: white;
+	height: max-content;
+	padding-bottom: 20px;
+}
+
+.inner{
+	background-color: #316DC3;
+	height: max-content;
+	margin-top: 15px;
+	color: white;
+}
+
+.intro{
+	text-align: center;
+}
+
+
+/*fourth section started*/
+#four{background-color: #f7f8fa;}
+
+.head{padding: 50px;padding-bottom: 0px; color: #427900;font-family: 'Merriweather', serif;font-weight: bold;text-align: center;}
+.head span{color: #316DC3;}
+
+.myhr { 
+    background: url('https://www.saylaniwelfare.com/public_html/images/saylani/favicon.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 50px;
+    border: 0;
+    position: relative;
+}
+.myhr:before,
+.myhr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #427900;
+    height: 2px;
+    top: 35px;
+    width: 45px;
+
+}
+.myhr:before {
+    left: 41%;
+   
+}
+.myhr:after {
+    right: 0;
+    left: 54%;
+   
+}
+
+.sticky{
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+}
+
+
+#special{
+	padding-bottom: 60px;
+}
+
+#four p{
+	text-align: left;
+	color: #666666;
+	padding-top:20px;
+}
+
+/*fifth section begins*/
+.outer{
+	background-color: rgba(36, 79, 242);
+	height: max-content;
+	padding-bottom: 60px;
+
+}
+
+.inner2{
+	text-align: center;
+	color: white;
+}
+
+.myfigure{
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size:50px;
+}
+
+
+.smallbox{height: 150px;margin-top: 60px;}
+.green{color: rgb(0, 255, 0);}
+
+/*sixth row begins*/
+#six{background-color: #f7f8fa; height: max-content;}
+.sixa{text-align: center;}
+
+.pack{
+	background-color: white;
+	height: 200px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+	padding: 20px;
+	text-align: center;
+}
+.desc{
+	padding: 20px;
+	color:#316DC3;
+}
+
+.packout{
+	padding: 20px;
+}
+
+.sixc{
+	padding-bottom: 30px;
+}
+
+.seventh{
+	height: max-content;
+	
+}
+
+.sevena,.sevenb{
+	height: max-content;
+	margin-top: 60px;
+}
+
+.sevena{
+
+}
+
+.sevenb{
+	
+}
+
+.headseven{
+	font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3; 
+}
+
+.greenline{
+	width: 50px;
+    height: 1px;
+    background-color: #427900;
+    margin: 0px;
+
+}
+
+.subrowb{
+	margin-top: 20px;
+}
+
+.subrowc{
+	margin-bottom: 20px;
+}
+
+.project{
+	height: 70px;
+	margin-right: 10px;
+	margin-top: 10px;
+	background-color: #f7f8fa;
+	display: inline-block;
+	border: 1px solid #eeeeee;
+	padding: 20px;
+}
+
+.name{
+	display: inline-block;
+	color: #316DC3;
+	margin-left: 15px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+}
+
+.greenline2{
+	width: 50px;
+    height: 1px;
+    background-color: #427900;
+    margin: 0px;
+   position: relative;
+   margin-bottom: 30px;
+}
+
+
+.greenline2:after{
+	content: '';
+	width: 300px;
+    height: 1px;
+    background-color: lightgrey;
+    margin: 0px;
+    position: absolute;
+    left: 50px;
+
+}
+
+.sevenb p{
+	color: grey;
+	width: 70%;
+}
+
+.blue{
+	color: blue;
+}
+
+#eight{
+	margin-top:30px;
+	margin-bottom: 150px; 
+}
+
+.pic{
+	padding: 0px;
+	margin-left: 30px;
+
+}
+
+.eighta{
+	margin-bottom: 30px;
+}
+
+
+/*last part begine*/
+#nine{
+	height: max-content;
+	background-color: rgb(37, 39, 46);
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.info{
+	color:#bbb;
+}
+
+.info ul{
+	list-style: none;
+	padding: 0px;
+}
+.info ul li{
+	font-size: 15px;
+	padding-top: 3px;
+}
+
+.info ul li i{
+	padding-right:7px;
+	font-size: 12px; 
+	color: #427900;
+}
+
+.headnine{
+	font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: white; 
+}
+
+.greenline3{
+	width: 50px;
+    height: 1px;
+    background-color: #427900;
+    margin: 0px;
+   position: relative;
+   margin-bottom: 30px;
+}
+
+
+.greenline3:after{
+	content: '';
+	width: 300px;
+    height: 1px;
+    background-color:#444;
+    margin: 0px;
+    position: absolute;
+    left: 50px;
+
+}
+
+.row {
+	margin:0px;
+}
+
+
+.connect{
+	 list-style: none;
+	 padding: 0px;
+}
+
+.connect li i{margin-top: 10px;font-size: 13px;}
+.connect li{
+	display: inline-block;
+	background-color: #316DD9;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	border-radius: 50%;
+	margin-top: 7px;
+	margin-right: 3px;
+}
+
+footer{
+	height: 40px;
+	background-color: #316DD9; 
+	color: white;
+	font-size: 13px;
+}
+
+footer p{
+	padding-top: 7px;
+}
+
+
+@media only screen and (max-width: 900px) {
+	.mybars{display:block;}
+	.mynav{display: none;}
+
+	.myhr:after {left: 57%;}
+	.myhr:before {left: 32%;}
+}
+
+.visible{
+	display: flex;
+	flex-direction: column;
+}
